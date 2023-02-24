@@ -6,4 +6,11 @@
 
 name = input('Tu Nombre: ')
 last = input('Tu Apellido: ')
-print('Tu Nombre es: ' + name + ' ' + last)
+edad = input('Cual es tu edad: ')
+
+
+#print('Tu Nombre es: ' + name + ' ' + last)
+#print('Bueno '+name+', necesito que me digas tu edad: ')
+
+print('\nQuerido ' + name + ' es interesante que tu apellido sea ' + last +
+      '. Te puedo decir que para tener ' + edad + ' anos te ves muy bien,\nsuerte con tu curso de python')
