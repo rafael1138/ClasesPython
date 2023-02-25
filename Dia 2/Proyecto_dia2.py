@@ -4,8 +4,6 @@
 
 nombre = input('Dime tu Nombre: ')
 ventas = input('Cuanto has vendido hoy?: ') #en el curso ellos luego hacen venta=int(venta) y asi no hay que cambiar luego
-porcentaje = 0.13
 total = int(ventas) * 13/100
-
 
 print(f'{nombre} tu comision es {round(total)} (redondeada), exacto es {total =} que viene a ser el 13% de {ventas}')
